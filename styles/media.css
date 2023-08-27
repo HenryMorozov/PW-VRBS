@@ -1,0 +1,145 @@
+@media (max-width: 1440px) {
+  .header__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer__zone-items-one {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1170px) {
+  .main__team-items {
+    justify-content: space-around;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .main__subscribe-text,
+  .main__service-headline,
+  .main__complete-headline,
+  .main__customer-headline {
+    text-align: center;
+  }
+  .main__complete {
+    flex-direction: column;
+  }
+  .main__customer {
+    flex-direction: column;
+  }
+  .footer__navbar-zone {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header__nav-list {
+    display: none;
+  }
+  .burger {
+    display: flex;
+  }
+}
+
+@media (max-width: 930px) {
+  .main__subscribe-box {
+    padding: 30px 15px;
+  }
+}
+
+@media (max-width: 870px) {
+  .header__navbar-virtual {
+    justify-content: space-between;
+  }
+  .main__servise-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer__navbar-zone {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .header__content-right-img,
+    .main__complete-left-img,
+    .main__customer-left-img,
+    .header__content-left-img/* , .main__form-btn, .main__form-input */ {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .main__servise-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main__service-headline,
+  .main__complete-headline,
+  .main__customer-headline,
+  .main__service-item-headline,
+  .main__team-headline,
+  .main__subscribe-headline {
+    font-size: 21px;
+  }
+  .main__subscribe-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer__copyright {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  h2,
+  h3,
+  p,
+  a {
+    text-align: center;
+  }
+  .footer__navbar-zone {
+    flex-direction: column;
+  }
+  .footer__nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__form-btn {
+    padding: 10px 19px;
+    font-size: 10px;
+  }
+  .main__form-input {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 470px) {
+  .main__form-btn {
+    font-size: 10px;
+  }
+  .main__form-input {
+    font-size: 10px;
+}
+}
+
+@media (max-width: 410px) {
+    .header__content-list {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 336px) {
+    .main__form-input {
+        padding: 0 5px;
+    }
+}
